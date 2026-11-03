@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+    min-height: 100vh;
+}
+
+.lado-esquerdo {
+    background-image: url(/imagens/lado-esquerdo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    padding: 120px 270px 50px;
+    width: 57%;
+    min-height: 100vh;
+}
+
+.text-lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.img-logo{
+    width: 250px;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.icon i {
+    color: rgb(37, 77, 255);
+    font-size: 30px;
+}
+
+
+
+.quebra-linha {
+    display: block;
+}
+
+.icon-lado-esquerdo{
+    display: flex;
+    gap: 30px;
+}
+
+.icon-lado-esquerdo p {
+    font-size: 12px;
+}
+
+.icon-lado-esquerdo h3{
+    font-size: 18px;
+}
+
